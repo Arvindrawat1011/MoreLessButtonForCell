@@ -2,7 +2,6 @@
 //  CustomTableViewClassVC.swift
 //  MoreLessButtonForCell
 //
-//  Created by yogesh singh negi on 25/08/17.
 //  Copyright © 2017 appinventiv. All rights reserved.
 //
 
@@ -63,7 +62,7 @@ At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praese
         super.viewDidLoad()
         self.customTableView.delegate = self
         self.customTableView.dataSource = self
-        self.navigationItem.title = "Play Store Apps"
+        self.navigationItem.title = "More_Less"
         
         
         
@@ -124,7 +123,7 @@ extension CustomTableViewClassVC: UITableViewDelegate,UITableViewDataSource{
     
 
     
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         
         if indexPath.row == self.myIndexPathRowArray[indexPath.row]{
                 return UITableViewAutomaticDimension

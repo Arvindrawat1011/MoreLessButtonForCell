@@ -1,10 +1,7 @@
 //
 //  AppDelegate.swift
 //  MoreLessButtonForCell
-//
-//  Created by yogesh singh negi on 24/08/17.
-//  Copyright © 2017 appinventiv. All rights reserved.
-//
+
 
 import UIKit
 
